@@ -1,10 +1,10 @@
 public class Card {
     int ownerId;    //идентификатор владельца карты
-    int number;     //номер карты
+    String number;     //номер карты
     Date issueDate; //дата выдачи
     Date expiryDate;//дата окончания действия
 
-    public Card(int oID, int n, Date iDate, Date eDate){
+    public Card(int oID, String n, Date iDate, Date eDate){
         this.ownerId = oID;
         this.number = n;
         this.issueDate = iDate;

@@ -9,6 +9,7 @@ public class Date {
         this.year = y;
     }
 
+    //компаратор дат
     public int compareDates(Date y){
         if (this.year > y.year)
             return 1;
